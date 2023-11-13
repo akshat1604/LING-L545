@@ -1,0 +1,63 @@
+Multichar_Symbols
+
+%<n%>       ! Noun
+%<sg%>      ! Singular
+%<pl%>      ! Plural
+%<nom%>     ! Nominative case
+%<gen%>     ! Genitive case
+%<poss%>    ! Possessive
+%>          ! Morpheme boundary
+
+LEXICON Root
+
+Nouns ;
+
+LEXICON Nouns
+
+%<n%>: %<sg%>:%<nom%> # ; ! "cat"
+%<n%>: %<pl%>:%<nom%> # ; ! "cats"
+
+%<n%>: %<sg%>:%<gen%> # ; ! "dog"
+%<n%>: %<pl%>:%<gen%> # ; ! "dogs"
+
+%<n%>: %<sg%>:%<poss%> # ; ! "person"
+%<n%>: %<pl%>:%<poss%> # ; ! "people"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "friend"
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "friends"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "house"
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "houses"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "book"
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "books"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "car"
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "cars"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "city"
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "cities"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "tree"
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "trees"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "computer"
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "computers"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "child"
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "children"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "river"
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "rivers"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "flower"
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "flowers"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "teacher"
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "teachers"
+
+%<n%>: %<sg%>:%<gen%>:%<poss%> # ; ! "pen"
+%<n%>: %<pl%>:%<gen%>:%<poss%> # ; ! "pens"
+
+%<n%>: %<sg%>:%<nom%>:%<poss%> # ; ! "sun"
+%<n%>: %<pl%>:%<nom%>:%<poss%> # ; ! "suns"
