@@ -18,4 +18,4 @@ if __name__ == "__main__":
     
     tokenized_text = tokenize_text(input_text)
 
-    #print(tokenized_text)
+    print(tokenized_text)
